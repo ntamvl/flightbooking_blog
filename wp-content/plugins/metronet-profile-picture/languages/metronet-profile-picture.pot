@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Metronet Profile Picture\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-comment-editing\n"
+"POT-Creation-Date: 2014-11-11 20:47-0600\n"
+"PO-Revision-Date: 2014-11-11 20:48-0600\n"
+"Last-Translator: Ronald Huereca <ron@ronalfy.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../metronet-profile-picture.php:257 ../metronet-profile-picture.php:393
+msgid "Crop Thumbnail"
+msgstr ""
+
+#: ../metronet-profile-picture.php:320
+msgid "Upload or Change Profile Picture"
+msgstr ""
+
+#: ../metronet-profile-picture.php:323
+msgid "Profile Image"
+msgstr ""
+
+#: ../metronet-profile-picture.php:337
+msgid ""
+"Select \"Set profile image\" after uploading to choose the profile image"
+msgstr ""
+
+#: ../metronet-profile-picture.php:358
+msgid "Override Avatar?"
+msgstr ""
+
+#: ../metronet-profile-picture.php:368 ../metronet-profile-picture.php:392
+msgid "Remove profile image"
+msgstr ""
+
+#: ../metronet-profile-picture.php:391
+msgid "Set profile image"
+msgstr ""
