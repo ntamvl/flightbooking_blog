@@ -641,10 +641,10 @@ box-shadow: 0 0 0 0 #FFFFFF;
 transition: all 0.4s ease-in-out 0s;
 -moz-backface-visibility: hidden;
 outline: 1px solid transparent;
-opacity: 1;
+opacity: 0.7;
 }
 .no-touch a img:hover {
-    opacity: 0.5;
+    opacity: 1;
 
 }
 .header a img:hover {

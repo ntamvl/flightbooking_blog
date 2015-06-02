@@ -47,22 +47,13 @@ $role = get_role( 'author' );
 $role->add_cap( 'unfiltered_html' );
 
 function wpb_imagelink_setup() {
-  $image_set = get_option( 'image_default_link_type' );
-
-  if ($image_set !== 'none') {
-    update_option('image_default_link_type', 'none');
-  }
+	$image_set = get_option( 'image_default_link_type' );
+ 
+	if ($image_set !== 'none') {
+		update_option('image_default_link_type', 'none');
+	}
 }
 add_action('admin_init', 'wpb_imagelink_setup', 10);
 
-function remove_imagelink_the_content_filter() {
-  $content = get_the_content();
-  $nextpost = "#";
-
-  $body = preg_replace("{<img\\s*(.*?)src=('.*?'|\".*?\"|[^\\s]+)(.*?)\\s*/?>}ims", '<a><img $1src=$2 $3/></a>', $content);
-
-  return $body;
-}
-add_filter( 'the_content', 'remove_imagelink_the_content_filter' );
 
 ?>
